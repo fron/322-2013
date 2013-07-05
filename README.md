@@ -1,8 +1,21 @@
-Welcome to CSE 322.
+Record of assignments
+---------------------
 
-Run the following commands once to set your name and email.
-(Use your real name so I can recognize you more easily.)
+## Instructions
 
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
+As you complete each assignment in this course,
+add a description to this README.md file that 
+describes what you did to complete the assignment.
+
+## Git
+
+Use this section to document your work on the Git assignment.
+
+## Heroku
+
+Use this section to document your work on the Heroku assignment.
+
+
+__Add sections and descriptions for all assignments.__
+
 
