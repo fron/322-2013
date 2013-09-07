@@ -1,21 +1,24 @@
-Record of assignments
----------------------
+Welcome to CSE 322.
 
-## Instructions
+This course is structured as a sequence of assignments, which
+involve reading, research, experimentation, configuation and
+programming. For each assignment, you will create a folder within
+your repository to store files you created to complete the
+assignment. At a minimum, each assignment folder will contain a
+file named README.md that includes information specific to the
+assignment. Details about what to put in this file as well as
+other files are provided in the instructions for the assignment.
 
-As you complete each assignment in this course,
-add a description to this README.md file that 
-describes what you did to complete the assignment.
+After completing an assignment, you need to commit your new files
+and changes to existing files into your local repository, and
+then push these changes into your remote repository.
+I will pull from your remote repository to get your files to
+evaluate your work.
 
-## Git
+Before doing anything else, run the following commands to set
+your name and email. Use your real name so I can recognize you
+more easily.
 
-Use this section to document your work on the Git assignment.
-
-## Heroku
-
-Use this section to document your work on the Heroku assignment.
-
-
-__Add sections and descriptions for all assignments.__
-
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
 
