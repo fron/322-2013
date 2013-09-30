@@ -1,0 +1,16 @@
+{
+  "name": "Francisco-Ron-app",
+  "version": "0.0.1",
+  "description": "An app",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/isaacs/npm.git"
+  },
+  "dependencies": {
+    "connect": "2.8.1"
+  },
+  "engines": {
+     "node": "0.10.4",
+     "npm": "1.2.18"
+  }
+}
