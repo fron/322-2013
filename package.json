@@ -1,7 +1,7 @@
 {
   "name": "fr322app",
   "version": "0.0.1",
-  "description": "fr322app",
+  "description": "CSE 322 F. Ron app",
   "repository": {
     "type": "git",
     "url": "http://github.com/isaacs/npm.git"
