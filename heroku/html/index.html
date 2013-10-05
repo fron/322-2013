@@ -1,0 +1,95 @@
+<!--************************************************************
+    *                CSE 322 (Fall 2013)                       *
+    *  index.html:   Initial page for the web site             *
+    *  created by:   Francisco Ron                             *
+    *  date      :   10/04/2013                                *
+    *  hwk       :    #2                                       *
+    ************************************************************  -->
+
+<!DOCTYPE html>
+<html>
+  
+  <!-- The file index.css contains format specifications for every html 
+        used for this web design                                    -->
+  <head>
+    <title>Francisco Ron - Photography</title>
+     <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+ 
+  <!-- Initial picture, used as a background-->
+  <body background="laurie1.jpg">
+ 
+     <!-- line1.jpg, and line3.jpg are used both at the top of the screen
+          divided by a simple line2                                   -->
+     <div id="line1">
+        <img src=" line1.jpg" />
+     </div>
+     <div>
+        <hr id="line2" noshade size=4 width="100%">
+     </div>
+     <div id="line3">
+        <img src=" line3.jpg" />
+     </div>
+     
+     <!-- name of the potographer on top of the screen-->
+     <div id="head1">
+        <p>FRANCISCO RON</p>
+     </div>
+     
+     <!-- Two tables are used to draw the cube with the letters "photography"
+          the first one is used to create the figure with an opacity defined 
+          in the css file. The second one manipulates the font characteristhics
+          both tables may have different grades of opacity -->
+     <table id="t1">
+     <tbody bgcolor="#43332f">
+        <tr >
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+        </tr>
+         <tr >
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+        </tr>
+         <tr >
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+           <td width = "75" height = "75"></td>
+        </tr>
+     </tbody>
+  </table>
+  
+    <table id="t2" style="font-size:68px; font-family:arial; text-align:center; cellpadding=0;         cellspacing=1"> 
+       <tbody>
+          <tr >
+             <td width = "75" height = "75" style="color:white">P</td>
+             <td width = "75" height = "75" style="color:white">H</td>
+             <td width = "75" height = "75" style="color: red">O</td>
+             <td width = "75" height = "75" style="color:white">T</td>
+          </tr>
+          <tr >
+             <td width = "75" height = "75" style="color:white"></td>
+             <td width = "75" height = "75" style="color:red">O</td>
+             <td width = "75" height = "75" style="color:white">G</td>
+             <td width = "75" height = "75" style="color:white">R</td>
+          </tr>
+          <tr >
+             <td width = "75" height = "75" style="color:red">A</td>
+             <td width = "75" height = "75" style="color:white">P</td>
+             <td width = "75" height = "75" style="color:red">H</td>
+             <td width = "75" height = "75" style="color:red">Y</td>
+          </tr>
+       </tbody>
+    </table>
+  
+    <!-- this one is used to display the message at the  bottom -->
+    <div id="line4">
+       <img src=" line4.jpg" />
+    </div>
+    
+  </body>
+</html>
