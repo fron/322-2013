@@ -43,20 +43,28 @@ table
 				 height:75px
 				 }
 
-/* tables attributes */
-.t1 {
-	    position:absolute; 
-        left:05px; 
-	    top:108px; 
-	    opacity: .5;
-	}
+.t2
+   tr 
+     td {
+	   border: 1px solid white;
+	   color:white;
+	 }
+	 
+.t2
+   tr 
+     .td2 {
+		 color:#fc0712;
+	 }
+
 
 .t2 {
+	    background-color:#211917;
 	    position:absolute; 
         left:05px; 
-	    top:098px; 
+	    top:112px; 
 	    opacity: .7;
-	    color:white;
+	    border: 1px solid white;
+		border-collapse:collapse;
 	}
 
 /* to manipulate text at the bottom*/
