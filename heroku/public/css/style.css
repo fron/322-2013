@@ -6,24 +6,34 @@
 		
 /* heading of the page */
 
-img {
-	    left:0px; opacity: .5;
-	} 
+.img0 {
+	    position:absolute;
+	    top:0px;
+		left:0px;
+		width:1597px;
+		lenght:752px;
+	     
+	 } 
 
 .img1 {
 	    position: absolute; 
+		left:0px;
 		top:0px;
+		opacity: .5;
       }
 
 .img2 {
-	    position:absolute; top:42px;
+	    position:absolute; 
+		left:0px;
+		top:42px;
+		opacity: .5
 	  } 
 
 /* this one controls the format of the name text */
 h1.head1 {
 	    color:#cc9966;
         position:absolute;  
-		left:15px; 
+		left:10px; 
 		top:-10px;  
 		font-family:LatoLight; 
 		font-type:lighter; 
@@ -75,7 +85,7 @@ h1 {
 	    font-size:48px; 
 	    font-type:lighter; 
         position:absolute; 
-        left:160px; 
+        left:205px; 
 	    top:400px;
 	}
 
