@@ -22,13 +22,6 @@
 		opacity: .5;
       }
 
-.img2 {
-	    position:absolute; 
-		left:0px;
-		top:42px;
-		opacity: .5
-	  } 
-
 /* this one controls the format of the name text */
 h1.head1 {
 	    color:#cc9966;
@@ -40,17 +33,6 @@ h1.head1 {
 		font-size:25px;
         }
 
-
-
-.line {
-	    position:absolute; 
-		top:31px; 
-		left:0px; 
-		size:5; 
-		width:100%
-	   }
-	   
- 
 
 /* table1 and table2 definition */
 table 
