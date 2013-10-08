@@ -3,29 +3,36 @@
         font-family: LatoLight;
         src: url(Lato-Light.ttf);
         }
+		
+/* heading of the page */
+
+img {
+	    left:0px; opacity: .5;
+	} 
+
+.img1 {
+	    position: absolute; 
+		top:0px;
+      }
+
+.img2 {
+	    position:absolute; top:42px;
+	  } 
 
 /* this one controls the format of the name text */
-#head1 {
+h1.head1 {
 	    color:#cc9966;
         position:absolute;  
 		left:15px; 
-		top:-20px;  
-		font-family:verdana; 
+		top:-10px;  
+		font-family:LatoLight; 
+		font-type:lighter; 
 		font-size:25px;
         }
 
-/* heading of the page */
-div 
-   img {
-	    left:0px; opacity: .5;
-		}
 
-#img1 {
-	    position: absolute; 
-		top:0px;
-	  }
 
-#line {
+.line {
 	    position:absolute; 
 		top:31px; 
 		left:0px; 
@@ -33,9 +40,7 @@ div
 		width:100%
 	   }
 	   
-#img2 {
-	    position:absolute; top:42px;
-	  }  
+ 
 
 /* table1 and table2 definition */
 table 
@@ -46,14 +51,15 @@ table
 				 height:75px
 				 }
 
-#t1 {
+/* tables attributes */
+.t1 {
 	    position:absolute; 
         left:05px; 
 	    top:108px; 
 	    opacity: .5;
 	}
 
-#t2 {
+.t2 {
 	    position:absolute; 
         left:05px; 
 	    top:098px; 
