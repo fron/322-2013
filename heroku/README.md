@@ -1,4 +1,4 @@
-[- NOTES FROM SECOND ASSIGNMENT:
+[- NOTES FROM THIRD ASSIGNMENT:
 
 In this assignment I learned the basics of HTML and CSS:
 
