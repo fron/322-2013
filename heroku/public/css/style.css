@@ -1,11 +1,10 @@
 /* external font definition */	
 @font-face {
         font-family: LatoLight;
-        src: url(Lato-Light.ttf);
-        }
+        src: url(../fonts/Lato-Light.ttf);
+		}
 		
-/* heading of the page */
-
+/* main picture */
 .img0 {
 	    position:absolute;
 	    top:0px;
@@ -15,23 +14,47 @@
 	     
 	 } 
 
+/* header */
 .img1 {
 	    position: absolute; 
 		left:0px;
 		top:0px;
-		opacity: .5;
+		opacity: .3;  
       }
 
-/* this one controls the format of the name text */
-h1.head1 {
-	    color:#cc9966;
+/* menu options */
+.oph {
+	    color:#f7f3f3;
         position:absolute;  
-		left:10px; 
-		top:-10px;  
+		top:50px;
+		left:350px; 
+		width:50px;
+		font-family:LatoLight; 
+		font-type:bold; 
+		font-size:22px;
+      }
+
+.opg {
+	    color:#f7f3f3;
+        position:absolute;  
+		top:50px;
+		left:550px; 
+		width:50px;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:25px;
-        }
+		font-size:22px;
+      }
+
+.opb {
+	    color:#f7f3f3;
+        position:absolute;  
+		top:50px;
+		left:750px; 
+		width:50px;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:22px;
+      }
 
 
 /* table1 and table2 definition */
@@ -46,6 +69,7 @@ table
 .t2
    tr 
      td {
+	   
 	   border: 1px solid white;
 	   color:white;
 	 }
@@ -53,8 +77,8 @@ table
 .t2
    tr 
      .td2 {
-		 color:#fc0712;
-	 }
+		  color:#fc0712;
+	  }
 
 
 .t2 {
@@ -62,13 +86,24 @@ table
 	    position:absolute; 
         left:05px; 
 	    top:112px; 
-	    opacity: .7;
+		opacity: .7;
 	    border: 1px solid white;
 		border-collapse:collapse;
 	}
 
-/* to manipulate text at the bottom*/
-h1 {
+/* francisco ron (txt) */
+ h1.head1 {
+	    color:#fcfcfc;
+        position:absolute;  
+		left:10px; 
+		top:-25px;  
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:35px;
+        }
+
+/* quote */
+h1.head2 {
 	    font-family: LatoLight; 
         color:#cc9966; 
 	    width:450px; 
@@ -79,4 +114,80 @@ h1 {
 	    top:400px;
 	}
 
+
+ /**********************************/
+ /* style definitions for bio page */
+ /**********************************/
  
+/* biography */
+p.biohead {
+	    color:#fcfcfc;
+        position:absolute;  
+		left:10px; 
+		top:-35px;  
+		font-family:LatoLight; 
+		font-type:lighter;
+		font-size:35px;
+        } 
+
+
+/* photography (text)*/
+p.biotitle {
+	    color:#cc9966;
+        position:absolute;  
+		top:155px;
+		left:390px; 
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:48px;
+        }
+		
+/* paragraph of bio */
+p.biotxt {
+	    color:#f7f3f3;
+        position:absolute;  
+		top:245px;
+		left:350px; 
+		width:450px;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:18px;
+		line-height: 1.5;
+		}
+		
+p.biotxt
+        span {
+			color:#cc9966;
+			font-size:20;
+		}
+		
+/* image fr */
+.imgbio {
+	    position:absolute;
+	    top:200px;
+		left:850px;
+		width:607px;
+		lenght:415px;
+	    } 
+		
+/***************************************/
+ /* style definitions for gallery page */
+ /**************************************/
+	 
+.imgw {
+	    position:absolute;
+	    top:155px;
+		left:430px;
+		width:966px;
+		lenght:550px;
+	   }
+	   
+p.wtitle {
+	    color:#cc9966;
+        position:absolute;  
+		top:320px;
+		left:180px; 
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:48px;
+        }
