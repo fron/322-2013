@@ -1,10 +1,11 @@
 [- NOTES FROM SECOND ASSIGNMENT:
 
-In this assignment I learned the basics of HTML and CSS:
+In this assignment I learned the basics of HTML5:
 
-The codecademy tutorials are really great, I went through a good basic knowledge in a very short time.
+The information contained in the web site: "Dive into HTML5" is quite extensive but very informative.
+I complemented my new knowledge with Andrew's manual.
 
-I learned basic HTML, and basic CSS
+I modified my web site to include the tags: SECTION, NAV, ASIDE, HEADER, and FOOTER as required. I also created a web page with examples of using the mentioned tags. I included a temporal option in my web site: HTML5 examples, which will be present solely by this week.
  
 [My web page is at(https://fr322app.herokuapp.com)
 
