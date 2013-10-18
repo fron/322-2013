@@ -56,6 +56,18 @@
 		font-size:22px;
       }
 
+/* temporal for HTML5 examples */
+
+.ope {
+	    color:#f7f3f3;
+        position:absolute;  
+		top:45px;
+		left:950px; 
+		width:50px;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:22px;
+      }
 
 /* table1 and table2 definition */
 table 
@@ -92,11 +104,11 @@ table
 	}
 
 /* francisco ron (txt) */
- h1.head1 {
+ p.head1 {
 	    color:#fcfcfc;
         position:absolute;  
 		left:10px; 
-		top:-25px;  
+		top:-35px;  
 		font-family:LatoLight; 
 		font-type:lighter; 
 		font-size:35px;
@@ -113,6 +125,18 @@ h1.head2 {
         left:205px; 
 	    top:400px;
 	}
+	
+	
+/* footer copyright (txt) */
+ p.foot {
+	    color:#faf5f5;
+        position:absolute;  
+		left:05px; 
+		top:718px;  
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:15px;
+        }	
 
 
  /**********************************/
@@ -160,7 +184,21 @@ p.biotxt
 			color:#cc9966;
 			font-size:20;
 		}
-		
+
+ 
+        aside
+		     a{
+	    position:absolute;  
+		top:630px;
+		left:350px; 
+		color:f80a0a;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:18px;
+		line-height: 1.5;
+		}
+
+
 /* image fr */
 .imgbio {
 	    position:absolute;
@@ -176,10 +214,10 @@ p.biotxt
 	 
 .imgw {
 	    position:absolute;
-	    top:155px;
+	    top:110px;
 		left:430px;
-		width:966px;
-		lenght:550px;
+		width:942px;
+		lenght:61opx;
 	   }
 	   
 p.wtitle {
