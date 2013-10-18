@@ -1,0 +1,65 @@
+/* external font definition */	
+@font-face {
+        font-family: LatoLight;
+        src: url(../fonts/Lato-Light.ttf);
+		}
+		
+/* header example*/
+header {
+	    color:#fefefe;
+	    position: absolute; 
+		top:50px;
+		left:300px;
+		}
+
+ 
+      .headart{
+	    position: absolute; 
+		top:90px;
+		left:450px;
+       }
+	   
+	   .headnav{
+	        position: absolute; 
+		    top:310px;
+		    left:450px;
+	   }
+
+nav {  
+      color:#e3ea20;
+      position: absolute; 
+	  top:360px;
+	  left:450px;
+    }
+
+nav
+   ul
+     li 
+	   a{
+	       color:#20ead5;
+	   
+	   }
+
+
+section {
+        color:#837a7a;
+		position: absolute; 
+		width:480px;;
+		top:140px;
+		left:430px;
+	  
+	  }
+	  
+
+/* menu options */
+aside {
+	    color:#20ea33;
+        font-family:LatoLight; 
+		}
+
+footer {  
+      color:#e3ea20;
+      position: absolute; 
+	  top:560px;
+	  left:550px;
+    }
