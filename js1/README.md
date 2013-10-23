@@ -6,6 +6,6 @@ In this assignment I learned the basics of JavaScript:
 
 [A good web page for JavaScript is at(http://www.codeavengers.com/)
 
-[Another one is at(http://eloquentjavascript.net/)
+[Another one is at(http://www.javascriptkit.com/)
 
 I succesfully completed this assignment
