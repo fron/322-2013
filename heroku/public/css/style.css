@@ -10,21 +10,25 @@
 	    top:0px;
 		left:0px;
 		width:1597px;
-		lenght:752px;
+		length:752px;
 	     
 	 } 
+	 
+.backGround{
+             background-color: #010101;
+           }
 
 /* header */
 .img1 {
 	    position: absolute; 
 		left:0px;
 		top:0px;
-		opacity: .3;  
+ 		opacity: .3;  
       }
 
 /* menu options */
 .oph {
-	    color:#f7f3f3;
+	    color:#cc9966;
         position:absolute;  
 		top:50px;
 		left:350px; 
@@ -35,7 +39,7 @@
       }
 
 .opg {
-	    color:#f7f3f3;
+	    color:#cc9966;
         position:absolute;  
 		top:50px;
 		left:550px; 
@@ -46,7 +50,7 @@
       }
 
 .opb {
-	    color:#f7f3f3;
+	    color:#cc9966;
         position:absolute;  
 		top:50px;
 		left:750px; 
@@ -56,18 +60,6 @@
 		font-size:22px;
       }
 
-/* temporal for HTML5 examples */
-
-.ope {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:45px;
-		left:950px; 
-		width:50px;
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:22px;
-      }
 
 /* table1 and table2 definition */
 table 
@@ -105,13 +97,13 @@ table
 
 /* francisco ron (txt) */
  p.head1 {
-	    color:#fcfcfc;
+	    color:#cc9966;
         position:absolute;  
 		left:10px; 
-		top:-35px;  
+		top:-33px;  
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:35px;
+		font-size:33px;
         }
 
 /* quote */
@@ -139,19 +131,19 @@ h1.head2 {
         }	
 
 
- /**********************************/
- /* style definitions for bio page */
- /**********************************/
+ /****************************************/
+ /* style definitions for BIOGRAPHY page */
+ /****************************************/
  
 /* biography */
 p.biohead {
-	    color:#fcfcfc;
+	    color:#cc9966;
         position:absolute;  
 		left:10px; 
-		top:-35px;  
+		top:-33px;  
 		font-family:LatoLight; 
 		font-type:lighter;
-		font-size:35px;
+		font-size:33px;
         } 
 
 
@@ -185,7 +177,6 @@ p.biotxt
 			font-size:20;
 		}
 
- 
         aside
 		     a{
 	    position:absolute;  
@@ -205,27 +196,115 @@ p.biotxt
 	    top:200px;
 		left:850px;
 		width:607px;
-		lenght:415px;
+		length:415px;
 	    } 
 		
 /***************************************/
- /* style definitions for gallery page */
+ /* style definitions for GALLERY page */
  /**************************************/
-	 
-.imgw {
-	    position:absolute;
-	    top:110px;
-		left:430px;
-		width:942px;
-		lenght:61opx;
-	   }
-	   
+
+/* header for gallery*/
+.img2 {
+	    position: absolute; 
+		left:0px;
+		top:0px;
+ 		opacity: .5; 
+      }
+
+/* portrait (txt) */ 
 p.wtitle {
 	    color:#cc9966;
         position:absolute;  
 		top:320px;
-		left:180px; 
-		font-family:LatoLight; 
+		left:40px; 
+		font-family:LatoLight;  
 		font-type:lighter; 
 		font-size:48px;
         }
+
+/* main picture */ 
+.fader{
+    position: relative;
+    padding-top: 39%;   /* distance from the closest element top, this one is used instead of height */ 
+    overflow: hidden;   /* hids what overflow the box */ 
+	top:120px;         /* picture's position */
+	left:430px;   
+	width:902px;    /* size of the pictures */ 
+	length:570px; 	 
+	} 
+ 
+	   
+ .fader .slide{
+    position: absolute;  /* positioned relative to .fader*/
+    width: 100%;
+    height: 100%;
+    top: 0;              /* to hide the pictures not current (values other than 0 will not display anything) */ 
+    z-index: 1;          /* stack order of pictures */ 
+    opacity: 0;          /* for the first load, every pic will be hidden so we choose which one to show*/ 
+}
+ 
+.fader img.slide{          
+    height: auto;       /* height of the image inside Fader, auto: assumes the sized we defined for Fader */
+}
+
+.fader .prev,           /* style for the left, and right arrows */ 
+.fader .next{
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #cc9966;
+  top: 42%;  
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms;
+}
+
+.fader .prev:hover,
+.fader .next:hover{
+  opacity: 1;          /* on hoover it will fade a little bit */ 
+}
+
+.fader .next{          /* data target  */ 
+  left: auto;
+  right: 0;
+}
+
+.fader .pager_list{      /* defined empty in gallery.html */  
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  top: 570px;
+  text-align: center;
+  z-index: 4;
+}
+
+.fader .pager_list li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #fff;
+  opacity: .7;
+  text-indent: -999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms;
+  color:black;
+}
+
+.fader .pager_list li:hover,
+.fader .pager_list li.active{
+  opacity: 1;
+}
+
+
+ 
+ 
+
