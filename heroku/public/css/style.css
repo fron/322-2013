@@ -1,302 +1,339 @@
+/* chrome home page */
+/* chrome gallery page */ 
 /* external font definition */	
 @font-face {
         font-family: LatoLight;
         src: url(../fonts/Lato-Light.ttf);
 		}
+
+.pageIndex {
+	      position:absolute;
+		  top:0em;
+		  left:0.0em;
+	/*	  margin: .005em auto;
+          padding: 0 .5em;  */
+          max-width:100%;
 		
-/* main picture */
-.img0 {
-	    position:absolute;
-	    top:0px;
-		left:0px;
-		width:1597px;
-		length:752px;
-	     
-	 } 
-	 
-.backGround{
-             background-color: #010101;
-           }
+         }
 
 /* header */
 .img1 {
-	    position: absolute; 
-		left:0px;
-		top:0px;
+	    position: relative; 
+		width:100%;
+		left:0em;
+		top:-0.3em;
  		opacity: .3;  
+		z-index:-1;
       }
+
+/* francisco ron (txt) */
+ p.head1 {
+	    position:relative;  
+		color:#cc9966;
+        left:0.9em; 
+		top: -0.8em;  
+		
+	    width: 65%;
+		font-family:LatoLight; 
+		font-type:lighter; 
+ 		
+	    font-size: 1.5em;  
+		 
+        }
+
+/* main picture */
+.img0 {
+	    position:absolute;
+	    top:0em;
+		left:0em;
+		width:100%;
+		height:102%;
+		z-index:-2;
+	  } 
+
 
 /* menu options */
 .oph {
 	    color:#cc9966;
-        position:absolute;  
-		top:50px;
-		left:350px; 
-		width:50px;
+        position:relative;  
+		top:-1.5em;
+		left:1em; 
+		width:3.13em;
 		font-family:LatoLight; 
 		font-type:bold; 
-		font-size:22px;
+		
+	    font-size: 1.5em;
       }
 
 .opg {
 	    color:#cc9966;
-        position:absolute;  
-		top:50px;
-		left:550px; 
-		width:50px;
+        position:relative;  
+		top:-1.5em;  
+ 		left:10em;  
+		width:3.125em;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:22px;
+		
+	    font-size: 1.5em;
       }
 
 .opb {
 	    color:#cc9966;
-        position:absolute;  
-		top:50px;
-		left:750px; 
-		width:50px;
+        position:relative;  
+		top:-1.5em;
+    	left:20em; 
+		width:3.125em;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:22px;
+		
+	    font-size: 1.5em;
       }
 
+.t2 {
+	    position:relative;
+		
+	    top: 0.1em;          /* to manage the position of the cube */ 
+		left:2.8em;
+		
+	    width: 27.4%;              /* defines the exterior border of the table */
+		background-color:#211917;
+		font-family:arial; 
+		text-align:center; 
+		cellpadding:0em; 
+		cellspacing:0.001em;
+ 		
+	    font-size: 4.5em;     /* size of the letters */ 
+	    opacity: .7;
+	    border: 0.02em solid red;  /* exterior border of the cube */ 
+	 	border-collapse:collapse; 
+	}
 
-/* table1 and table2 definition */
-table 
-     tbody 
-	      tr 
-		     td {
-				 width:75px; 
-				 height:75px
-				 }
-
+/* interior borders */ 
 .t2
    tr 
      td {
-	   
-	   border: 1px solid white;
+	   position:relative;
+	   border: 0.03em solid white;
 	   color:white;
-	 }
+	   }
 	 
 .t2
    tr 
      .td2 {
-		  color:#fc0712;
-	  }
-
-
-.t2 {
-	    background-color:#211917;
-	    position:absolute; 
-        left:05px; 
-	    top:112px; 
-		opacity: .7;
-	    border: 1px solid white;
-		border-collapse:collapse;
-	}
-
-/* francisco ron (txt) */
- p.head1 {
-	    color:#cc9966;
-        position:absolute;  
-		left:10px; 
-		top:-33px;  
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:33px;
-        }
+		  position:relative;
+		  color:#fc0712;  /* text color */ 
+		  }
 
 /* quote */
-h1.head2 {
-	    font-family: LatoLight; 
+.head2 {
+	    position:relative;
+		float:left;
+		
+	    top: 1.5em;
+		
+	    left: 2.5em; 
+	    width:55%;
+	    font-family:LatoLight; 
         color:#cc9966; 
-	    width:450px; 
-	    font-size:48px; 
-	    font-type:lighter; 
-        position:absolute; 
-        left:205px; 
-	    top:400px;
-	}
+	    font-type:lighter;
+		
+	    font-size: 80%;
+
+	    font-size: 2.5em;
+		line-height:103%;
+}
 	
 	
 /* footer copyright (txt) */
- p.foot {
-	    color:#faf5f5;
-        position:absolute;  
-		left:05px; 
-		top:718px;  
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:15px;
+ p.indexFoot {
+	top: 36.0em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size: 1.0em;
         }	
 
 
- /****************************************/
- /* style definitions for BIOGRAPHY page */
- /****************************************/
- 
-/* biography */
-p.biohead {
-	    color:#cc9966;
-        position:absolute;  
-		left:10px; 
-		top:-33px;  
-		font-family:LatoLight; 
-		font-type:lighter;
-		font-size:33px;
-        } 
-
-
-/* photography (text)*/
-p.biotitle {
-	    color:#cc9966;
-        position:absolute;  
-		top:155px;
-		left:390px; 
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:48px;
-        }
-		
-/* paragraph of bio */
-p.biotxt {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:245px;
-		left:350px; 
-		width:450px;
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:18px;
-		line-height: 1.5;
-		}
-		
-p.biotxt
-        span {
-			color:#cc9966;
-			font-size:20;
-		}
-
-        aside
-		     a{
-	    position:absolute;  
-		top:630px;
-		left:350px; 
-		color:f80a0a;
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:18px;
-		line-height: 1.5;
-		}
-
-
-/* image fr */
-.imgbio {
-	    position:absolute;
-	    top:200px;
-		left:850px;
-		width:607px;
-		length:415px;
-	    } 
-		
 /***************************************/
  /* style definitions for GALLERY page */
  /**************************************/
 
-/* header for gallery*/
+ .backGround{
+	          background-color: #010101;
+			 } 
+
+.pageGallery {
+	      position:absolute;
+		  top:0em;
+		  left:0em;
+	      max-width:100%;
+	      }
+ 
+/* header image for gallery and bio (line) */
 .img2 {
-	    position: absolute; 
-		left:0px;
-		top:0px;
- 		opacity: .5; 
+	    position:relative; 
+		
+	    left: -0.5em;
+		
+	    top: -1.0em;
+		
+	    width: 104%;
+		opacity: .5; 
+/*		z-index:-1;  */
       }
+
+		
+/* text: gallery */
+p.galleryHead {
+	    position:relative;  
+		
+	    top: -5.3em;
+		left:0.5em;
+		width:45%;
+		font-family:LatoLight; 
+		font-type:lighter; 
+ 		font-size:1.5em;  
+        color:#cc9966;
+	    } 
+		
+
+/* menu options */
+.ogh {
+	    position:relative;  
+		
+	    top: -5.8em;
+		left:1em; 
+		width:3.13em;
+		font-family:LatoLight; 
+		font-type:bold; 
+		font-size:1.5em;
+		color:#cc9966;
+      }
+
+.ogg {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: -5.8em;  
+ 		left:10em;  
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:1.5em;
+      }
+
+.ogb {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: -5.8em;
+    	left:20em; 
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:1.5em;
+      }
+
 
 /* portrait (txt) */ 
 p.wtitle {
-	    color:#cc9966;
-        position:absolute;  
-		top:320px;
-		left:40px; 
+	    float:left;
+        position:relative;  
+		
+	    top: 4.7em;
+		left:1.0em; 
 		font-family:LatoLight;  
 		font-type:lighter; 
-		font-size:48px;
+		
+	    font-size: 2.5em;
+	 	color:#cc9966;  
+		
         }
-
-/* main picture */ 
+	   
 .fader{
     position: relative;
-    padding-top: 39%;   /* distance from the closest element top, this one is used instead of height */ 
-    overflow: hidden;   /* hids what overflow the box */ 
-	top:120px;         /* picture's position */
-	left:430px;   
-	width:902px;    /* size of the pictures */ 
-	length:570px; 	 
-	} 
- 
-	   
- .fader .slide{
-    position: absolute;  /* positioned relative to .fader*/
-    width: 100%;
-    height: 100%;
-    top: 0;              /* to hide the pictures not current (values other than 0 will not display anything) */ 
-    z-index: 1;          /* stack order of pictures */ 
-    opacity: 0;          /* for the first load, every pic will be hidden so we choose which one to show*/ 
+    top: -5.5em;         /* picture's position */
+	left: 3em;
+	/* padding-top: inherit; */
+	length:31.6em; 
+    padding-top: 65%;     /* this controls the height of the pictures */
+    overflow: hidden;
+    }
+	
+.fader .slide{
+	position: absolute;  /* positioned relative to .fader*/
+	width: 80%;          /* size of the pictures */
+	height: 100%;
+	left: 7.50em;           /* to hide the pictures not current (values other than 0 will not display anything) */
+    
+	top: 0.0em;              /* to hide the pictures not current (values other than 0 will not display anything) */
+	z-index: 1;              /* stack order of pictures */
+	opacity: 0;              /* for the first load, every pic will be hidden so we choose which one to show*/
+	 
 }
  
-.fader img.slide{          
-    height: auto;       /* height of the image inside Fader, auto: assumes the sized we defined for Fader */
+.fader img.slide{
+	height: auto;       /* height of the image inside Fader, auto: assumes the sized we defined for Fader */
 }
 
 .fader .prev,           /* style for the left, and right arrows */ 
 .fader .next{
-  position: absolute;
-  height: 80px;
-  line-height: 55px;
-  width: 50px;
-  font-size: 100px;
-  text-align: center;
-  color: #cc9966;
-  top: 42%;  
-  left: 0;
-  z-index: 4;
-  margin-top: -25px;
-  cursor: pointer;
-  opacity: .7;
-  transition: all 150ms;
+	position: absolute;
+  
+	height: 5em; 
+	line-height: 1em;
+    width: 1em;
+    
+	font-size: 6em;
+    text-align: center;
+ 	
+	color: hsl(36, 75%, 47%);
+    top: 35%;  
+    left: 0;
+    z-index: 4;
+    margin-top: -0.5em;
+    cursor: pointer;
+    opacity: .7;
+    transition: all 150ms;
 }
 
 .fader .prev:hover,
 .fader .next:hover{
-  opacity: 1;          /* on hoover it will fade a little bit */ 
+                   opacity: 1;          /* on hoover it will fade a little bit */                  }
+
+.fader .next{          /* data target  */
+	         left: auto;
+	                   right: 0.1em;
+            }
+
+.fader .pager_list{               /* defined empty in gallery.html */
+            position: absolute;
+            width: 75%;            /* for the list (dots) */
+	        
+            height: 5%;
+	        
+            line-height: 2.99em;
+	        
+            top: 35.5em;            /* distance of the dots from portrait */
+	       text-align: right;
+	       z-index:4;
 }
 
-.fader .next{          /* data target  */ 
-  left: auto;
-  right: 0;
-}
-
-.fader .pager_list{      /* defined empty in gallery.html */  
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  top: 570px;
-  text-align: center;
-  z-index: 4;
-}
-
-.fader .pager_list li{
+.pager_list li{
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin: 0 7px;
-  background: #fff;
-  opacity: .7;
-  text-indent: -999px;
-  border-radius: 999px;
+  width: 0.9em;
+  height: 0.9em;        /* dots height */
+  margin: 0 0.40em;      /* marging among dots */
+  background: #C8E52E;
+  opacity: .7;  
+  text-indent: -62.4em;   
+  border-radius: 62.4em;    
   cursor: pointer;
   transition: all 150ms;
-  color:black;
+  color: rgb(172, 218, 74);        /* number colors */ 
+  
 }
 
 .fader .pager_list li:hover,
@@ -304,7 +341,159 @@ p.wtitle {
   opacity: 1;
 }
 
+/* footer copyright (txt) */
+ p.galleryFoot {
+	top: 51em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size: 0.9em;
+        }	
+		
+ /****************************************/
+ /* style definitions for BIOGRAPHY page */
+ /****************************************/
 
+.pageBio {
+	      position:relative;
+		  top:-5.5em;
+		  left:-0.5em;
+	       
+		  }
+/* main picture */
+.img3 {
+	    position:absolute;
+	    top: -2.4em;
+		left:0em;
+		
+	    width: 104%;
+		
+	    height: 120%;
+		z-index:-2;
+	  } 
+
+/* text: biography */
+p.biohead {
+	    position:relative;  
+		
+	    top: -1.5em;
+		left:0.5em;
+		width:45%;
+		font-family:LatoLight; 
+		font-type:lighter; 
+ 		
+	    font-size: 1.5em;  
+        color:#cc9966;
+	    } 
+
+/* menu options */
+.obh {
+	    position:relative;  
+		
+	    top: -2.3em;
+		left:1em; 
+		width:3.13em;
+		font-family:LatoLight; 
+		font-type:bold; 
+		
+	    font-size: 1.5em;
+		color:#cc9966;
+      }
+
+.obg {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: -2.3em;  
+ 		left:10em;  
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		
+	    font-size: 1.5em;
+      }
+
+.obb {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: -2.3em;
+    	left:20em; 
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		
+	    font-size: 1.5em;
+      }
+
+/* text: photography */
+.biotxt
+       .biotitle {
+            position:relative; 
+			float:top;
+		    
+            top: -1.0em;
+		    
+            left: 2.0em; 
+		    font-family:LatoLight; 
+		    font-type:lighter; 
+		    
+            font-size: 2.5em;
+            color:#cc9966;    
+		   
+		    }
+
+/* text: legend */ 
+.biotxt
+       .history{
+		    position:relative;
+			float:left;
+		    top: -5.5em;
+			left:3.5em;
+	        
+		    width: 20em;
+			
+		    height: 21.0em;
+		    color:#f7f3f3; 
+		    font-family:LatoLight; 
+		    font-type:lighter; 
+		    font-size: 1.1em;
+		    line-height: 1.5em; 
+		}
+
+
+.biotxt 
+       .history
+               span {
+				   position:relative;
+				   top:auto;
+			       color:#cc9966;
+			       font-size:0.9em;
+		        }
+
+/* image fr */
+.imgbio {
+	    position:relative;
+	    top: -7.5em;
+		
+	    left: 6.0em;
+		
+	    width: 60%;
+		
+	    height: 60%;
+		} 
+		
+/* footer copyright (txt) */
+ p.bioFoot {
+	top: 52em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size: 0.9em;
+        }	
  
  
-
