@@ -1,231 +1,461 @@
+/* chrome home page */
+/* chrome gallery page */ 
 /* external font definition */	
 @font-face {
         font-family: LatoLight;
         src: url(../fonts/Lato-Light.ttf);
 		}
+
+.pageIndex {
+	      position:absolute;
+		  top:0em;
+		  left:0.0em;
+	/*	  margin: .005em auto;
+          padding: 0 .5em;  */
+          max-width:100%;
 		
-/* main picture */
-.img0 {
-	    position:absolute;
-	    top:0px;
-		left:0px;
-		width:1597px;
-		lenght:752px;
-	     
-	 } 
+         }
 
 /* header */
 .img1 {
-	    position: absolute; 
-		left:0px;
-		top:0px;
-		opacity: .3;  
+	    position: relative; 
+		width:100%;
+		left:0em;
+		top:-0.3em;
+ 		opacity: .3;  
+		z-index:-1;
       }
+
+/* francisco ron (txt) */
+ p.head1 {
+	    position:relative;  
+		color:#cc9966;
+        left:0.9em; 
+		top: -0.8em;  
+		width:45%;
+		font-family:LatoLight; 
+		font-type:lighter; 
+ 		font-size:0.7em;  
+		 
+        }
+
+/* main picture */
+.img0 {
+	    position:absolute;
+	    top:0em;
+		left:0em;
+		width:100%;
+		height:102%;
+		z-index:-2;
+	  } 
+
 
 /* menu options */
 .oph {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:50px;
-		left:350px; 
-		width:50px;
+	    color:#cc9966;
+        position:relative;  
+		top:-1.5em;
+		left:1em; 
+		width:3.13em;
 		font-family:LatoLight; 
 		font-type:bold; 
-		font-size:22px;
+		font-size:0.8em;
       }
 
 .opg {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:50px;
-		left:550px; 
-		width:50px;
+	    color:#cc9966;
+        position:relative;  
+		top:-1.5em;  
+ 		left:10em;  
+		width:3.125em;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:22px;
+		font-size:0.8em;
       }
 
 .opb {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:50px;
-		left:750px; 
-		width:50px;
+	    color:#cc9966;
+        position:relative;  
+		top:-1.5em;
+    	left:20em; 
+		width:3.125em;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:22px;
+		font-size:0.8em;
       }
 
-/* temporal for HTML5 examples */
+.t2 {
+	    position:relative;
+		top:0.5em;          /* to manage the position of the cube */ 
+		left:2.8em;
+		width:34.2%;              /* defines the exterior border of the table */
+		background-color:#211917;
+		font-family:arial; 
+		text-align:center; 
+		cellpadding:0em; 
+		cellspacing:0.001em;
+ 		font-size:1.5em;     /* size of the letters */ 
+	    opacity: .7;
+	    border: 0.1em solid red;  /* exterior border of the cube */ 
+	 	border-collapse:collapse; 
+	}
 
-.ope {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:45px;
-		left:950px; 
-		width:50px;
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:22px;
-      }
-
-/* table1 and table2 definition */
-table 
-     tbody 
-	      tr 
-		     td {
-				 width:75px; 
-				 height:75px
-				 }
-
+/* interior borders */ 
 .t2
    tr 
      td {
-	   
-	   border: 1px solid white;
+	   position:relative;
+	   border: 0.1em solid white;
 	   color:white;
-	 }
+	   }
 	 
 .t2
    tr 
      .td2 {
-		  color:#fc0712;
-	  }
-
-
-.t2 {
-	    background-color:#211917;
-	    position:absolute; 
-        left:05px; 
-	    top:112px; 
-		opacity: .7;
-	    border: 1px solid white;
-		border-collapse:collapse;
-	}
-
-/* francisco ron (txt) */
- p.head1 {
-	    color:#fcfcfc;
-        position:absolute;  
-		left:10px; 
-		top:-35px;  
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:35px;
-        }
+		  position:relative;
+		  color:#fc0712;  /* text color */ 
+		  }
 
 /* quote */
-h1.head2 {
-	    font-family: LatoLight; 
+.head2 {
+	    position:relative;
+		float:left;
+		
+	    top: 2.5em;
+		
+	    left: 3.9em; 
+	    width:55%;
+	    font-family:LatoLight; 
         color:#cc9966; 
-	    width:450px; 
-	    font-size:48px; 
-	    font-type:lighter; 
-        position:absolute; 
-        left:205px; 
-	    top:400px;
-	}
+	    font-type:lighter;
+		font-size:80%;
+/*		font-size:3.0625em; */
+		line-height:103%;
+}
 	
 	
 /* footer copyright (txt) */
- p.foot {
-	    color:#faf5f5;
-        position:absolute;  
-		left:05px; 
-		top:718px;  
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:15px;
+ p.indexFoot {
+	top: 26em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size:0.6em;
         }	
 
 
- /**********************************/
- /* style definitions for bio page */
- /**********************************/
+/***************************************/
+ /* style definitions for GALLERY page */
+ /**************************************/
+
+ .backGround{
+	          background-color: #010101;
+			 } 
+
+.pageGallery {
+	      position:absolute;
+		  top:0em;
+		  left:0em;
+	      max-width:100%;
+	      }
  
-/* biography */
-p.biohead {
-	    color:#fcfcfc;
-        position:absolute;  
-		left:10px; 
-		top:-35px;  
+/* header image for gallery and bio (line) */
+.img2 {
+	    position:relative; 
+		left:0em;
+		top:0.2em;
+		width:100%;
+		opacity: .5; 
+/*		z-index:-1;  */
+      }
+
+		
+/* text: gallery */
+p.galleryHead {
+	    position:relative;  
+		top: -4.0em;
+		left:0.5em;
+		width:45%;
 		font-family:LatoLight; 
-		font-type:lighter;
-		font-size:35px;
-        } 
+		font-type:lighter; 
+ 		font-size:0.9em;  
+        color:#cc9966;
+	    } 
+		
 
+/* menu options */
+.ogh {
+	    position:relative;  
+		top:-5.4em;
+		left:1em; 
+		width:3.13em;
+		font-family:LatoLight; 
+		font-type:bold; 
+		font-size:0.8em;
+		color:#cc9966;
+      }
 
-/* photography (text)*/
-p.biotitle {
+.ogg {
 	    color:#cc9966;
-        position:absolute;  
-		top:155px;
-		left:390px; 
+        position:relative;  
+		top:-5.4em;  
+ 		left:10em;  
+		width:3.125em;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:48px;
+		font-size:0.8em;
+      }
+
+.ogb {
+	    color:#cc9966;
+        position:relative;  
+		top:-5.4em;
+    	left:20em; 
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:0.8em;
+      }
+
+
+/* portrait (txt) */ 
+p.wtitle {
+	    float:left;
+        position:relative;  
+		top:9.0em;
+		left:1.0em; 
+		font-family:LatoLight;  
+		font-type:lighter; 
+		font-size:0.5em;
+	 	color:#cc9966;  
+		
         }
-		
-/* paragraph of bio */
-p.biotxt {
-	    color:#f7f3f3;
-        position:absolute;  
-		top:245px;
-		left:350px; 
-		width:450px;
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:18px;
-		line-height: 1.5;
-		}
-		
-p.biotxt
-        span {
-			color:#cc9966;
-			font-size:20;
-		}
-
+	   
+.fader{
+    position: relative;
+    top: -3em;         /* picture's position */
+	left: 3em;
+	/* padding-top: inherit; */
+	length:31.6em; 
+    padding-top: 65%;     /* this controls the height of the pictures */
+    overflow: hidden;
+    }
+	
+.fader .slide{
+	position: absolute;  /* positioned relative to .fader*/
+	width: 90%;          /* size of the pictures */
+	height: 100%;
+	/*   left: 2.0em;   */           /* to hide the pictures not current (values other than 0 will not display anything) */
+    
+	top: 0em;              /* to hide the pictures not current (values other than 0 will not display anything) */
+	z-index: 1;              /* stack order of pictures */
+	opacity: 0;              /* for the first load, every pic will be hidden so we choose which one to show*/
+	 
+}
  
-        aside
-		     a{
-	    position:absolute;  
-		top:630px;
-		left:350px; 
-		color:f80a0a;
+.fader img.slide{
+	height: auto;       /* height of the image inside Fader, auto: assumes the sized we defined for Fader */
+}
+
+.fader .prev,           /* style for the left, and right arrows */ 
+.fader .next{
+	position: absolute;
+  
+	height: 5em; 
+	line-height: 1em;
+    width: 1em;
+    font-size: 4em;
+    text-align: center;
+ 	color: hsl(170, 59%, 98%);
+    top: 35%;  
+    left: 0;
+    z-index: 4;
+    margin-top: -0.5em;
+    cursor: pointer;
+    opacity: .7;
+    transition: all 150ms;
+}
+
+.fader .prev:hover,
+.fader .next:hover{
+                   opacity: 1;          /* on hoover it will fade a little bit */                  }
+
+.fader .next{          /* data target  */
+	         left: auto;
+	         right: 0.6em;
+            }
+
+.fader .pager_list{               /* defined empty in gallery.html */
+            position: absolute;
+            width: 45%;            /* for the list (dots) */
+	        height: 5%;
+	        line-height: 2.75em;
+	        top: 30em;            /* distance of the dots from portrait */
+	       text-align: right;
+	       z-index:4;
+}
+
+.pager_list li{
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;        /* dots height */
+  margin: 0 0.47em;      /* marging among dots */
+  background: #fff;
+  opacity: .7;  
+  text-indent: -62.4em;   
+  border-radius: 62.4em;    
+  cursor: pointer;
+  transition: all 150ms;
+  color:white;        /* number colors */ 
+  
+}
+
+.fader .pager_list li:hover,
+.fader .pager_list li.active{
+  opacity: 1;
+}
+
+/* footer copyright (txt) */
+ p.galleryFoot {
+	top: 35em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size:0.6em;
+        }	
+		
+ /****************************************/
+ /* style definitions for BIOGRAPHY page */
+ /****************************************/
+
+.pageBio {
+	      position:relative;
+		  top:-5.5em;
+		  left:-0.5em;
+	       
+		  }
+/* main picture */
+.img3 {
+	    position:absolute;
+	    top:0em;
+		left:0em;
+		width:45.0em;
+		height:47em;
+		z-index:-2;
+	  } 
+
+/* text: biography */
+p.biohead {
+	    position:relative;  
+		top: 2.5em;
+		left:0.5em;
+		width:45%;
 		font-family:LatoLight; 
 		font-type:lighter; 
-		font-size:18px;
-		line-height: 1.5;
+ 		font-size:0.9em;  
+        color:#cc9966;
+	    } 
+
+/* menu options */
+.obh {
+	    position:relative;  
+		
+	    top: 1.5em;
+		left:1em; 
+		width:3.13em;
+		font-family:LatoLight; 
+		font-type:bold; 
+		font-size:0.8em;
+		color:#cc9966;
+      }
+
+.obg {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: 1.5em;  
+ 		left:10em;  
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:0.8em;
+      }
+
+.obb {
+	    color:#cc9966;
+        position:relative;  
+		
+	    top: 1.5em;
+    	left:20em; 
+		width:3.125em;
+		font-family:LatoLight; 
+		font-type:lighter; 
+		font-size:0.8em;
+      }
+
+/* text: photography */
+.biotxt
+       .biotitle {
+            position:relative; 
+			float:top;
+		    top:1.5em;
+		    left:3.0em; 
+		    font-family:LatoLight; 
+		    font-type:lighter; 
+		    font-size:1.0em;
+            color:#cc9966;    
+		   
+		    }
+
+/* text: legend */ 
+.biotxt
+       .history{
+		    position:relative;
+			float:left;
+		    top:0.5em;
+			left:3.5em;
+	        width:10em;
+			height:15.0em;
+		    color:#f7f3f3; 
+		    font-family:LatoLight; 
+		    font-type:lighter; 
+		    font-size:0.9em;
+		    line-height: 1.2em; 
 		}
 
+
+.biotxt 
+       .history
+               span {
+				   position:relative;
+				   top:auto;
+			       color:#cc9966;
+			       font-size:0.9em;
+		        }
 
 /* image fr */
 .imgbio {
-	    position:absolute;
-	    top:200px;
-		left:850px;
-		width:607px;
-		lenght:415px;
-	    } 
+	    position:relative;
+	    top: 1.5em;
 		
-/***************************************/
- /* style definitions for gallery page */
- /**************************************/
-	 
-.imgw {
-	    position:absolute;
-	    top:110px;
-		left:430px;
-		width:942px;
-		lenght:61opx;
-	   }
-	   
-p.wtitle {
-	    color:#cc9966;
-        position:absolute;  
-		top:320px;
-		left:180px; 
-		font-family:LatoLight; 
-		font-type:lighter; 
-		font-size:48px;
-        }
+	    left: 6.0em;
+		width:20.08em;
+		height:23.84em;
+		} 
+		
+/* footer copyright (txt) */
+ p.bioFoot {
+	top: 60em;
+	left:6px;
+	position:absolute;
+	color:#faf5f5;
+	font-family:LatoLight;
+	font-type:lighter;
+	font-size:0.6em;
+        }	
+ 
+ 
