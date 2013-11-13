@@ -1,64 +1,94 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
 
-<!-- Initial page  -->
-<html>
-  
-  <!-- link for the css style file -->
-  <head> 
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-     <title>Francisco Ron - Photography</title>
-     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <title>Photography by Francisco Ron</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- local styling -->
+    <link href="css/style.css" rel="stylesheet">
+
+    
   </head>
- 
-  <!-- Initial picture, used as a background-->
+
   <body>
- 
-     <!-- heading of the page -->
-     <img class="img2" src="images/line1.jpg"/>  
- 
-     <div class="pageBio">
-      
-        <p class="biohead">
-            BIOGRAPHY
-         </p>   
-     
-         <!-- menu options -->
-         
-         <!-- home -->
-             <a class="obh" href="index.html">Homepage</a> 
-         <!-- gallery -->
-             <a class="obg" href="gallery.html">Gallery</a> 
-         <!-- bio -->
-             <a class="obb" href="bio.html">Bio</a>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Photography</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">Bio</a></li>
+            <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="gallery.html">Portraits</a></li>
+                    <li><a href="#">More to come...</a></li>
+                    <li><a href="#">More to come...</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">More to come...</a></li>
+                    <li><a href="#">More to come...</a></li>
+                  </ul>
+                </li>
             
+            
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <div class="container">
      
-         <section class="biotxt">
-           <p class="biotitle"> PHOTOGRAPHY </p>
-           <p class="history">
-               Originally from South America, I moved to California to 
-               pursue advancement on   my    IT   (Information and  
-               Technology) career. On the side, photography is my  
-               passion, so I’ve been shooting all around California for a 
-               couple of years. 
-               On fall 2013, I have to design a web site as part of one of  
-               the subjects I’m taking at school, so, now there’s an  
-               opportunity to show my pictures. This can be nothing but a  
-               happy confluence of circumstances. 
-               I hope you enjoy my pictures as much as I did creating them. &nbsp; 
-               Feel free to drop me a line or two at:&nbsp   
-               <span>francisqueins@hotmail.com</span> 
-             </p>
-         </section>
-       
-       <!-- background black leather --> 
-       <img class="img3" src="images/bg1.jpg"/> 
-       
-       <img class="imgbio" src="images/fr.jpg"/>
-       
-      <footer>
-        <p class="bioFoot">Web Design - Copyright ©2013 Francisco Ron</p>
-      </footer>  
-  </div> 
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><br><br>Francisco Ron <br> <br> <span class="text-muted">A little bit about me</span></h2>
+          <p class="lead"> Originally from South America, I moved to California to 
+             pursue advancement on   my    IT   (Information and  
+             Technology) career. On the side, photography is my  
+             passion, so I’ve been shooting all around California for a 
+             couple of years. 
+             On fall 2013, I have to design a web site as part of one of  
+             the subjects I’m taking at school, so, now there’s an  
+             opportunity to show my pictures. This can be nothing but a  
+             happy confluence of circumstances. 
+             I hope you enjoy my pictures as much as I did creating them. &nbsp; 
+             Feel free to drop me a line or two at:&nbsp   
+             <span>francisqueins@hotmail.com</span> </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive bioImage" src="images/fr.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
- 

@@ -1,80 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
 
-<!-- Initial page  -->
+    <title>Gallery</title>
 
-<html>
-  
-  <!-- link for the css style file -->
-  <head> 
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-     <title>Francisco Ron - Photography</title>
-     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    
-     
-     
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- local styling -->
+    <link href="css/style.css" rel="stylesheet">
+
   </head>
-   
-  <body class="backGround">
-     
-      <!-- heading of the page -->
-     <img class="img2" src="images/line1.jpg"/>
-     
-     <!-- name of the photographer on top of the screen-->
-     <p class="galleryHead">
-        GALLERY
-     </p>
-     
-      <!-- menu options -->
-     <!-- home -->
-         <a class="ogh" href="index.html">Homepage</a> 
-     <!-- gallery -->
-         <a class="ogg" href="gallery.html">Gallery</a> 
-     <!-- bio -->
-         <a class="ogb" href="bio.html">Bio</a> 
-      
-      <p class="wtitle">
-         PORTRAITS
-      </p>
-      <div id="Fader" class="fader"> 
-          <img class="slide" src="images/pic1.png"/> 
-          <img class="slide" src="images/pic2.png"/> 
-          <img class="slide" src="images/pic3.png"/> 
-          <img class="slide" src="images/pic4.jpg"/> 
-          <img class="slide" src="images/pic5.png"/> 
-          <img class="slide" src="images/pic6.png"/> 
-          <img class="slide" src="images/pic7.png"/> 
-          <img class="slide" src="images/pic8.png"/> 
-          <img class="slide" src="images/pic9.png"/> 
-          <img class="slide" src="images/pic10.png"/> 
-          <img class="slide" src="images/pic11.png"/> 
-          <img class="slide" src="images/pic12.png"/> 
-          <img class="slide" src="images/pic13.png"/> 
-          <img class="slide" src="images/pic14.jpg"/> 
-          <img class="slide" src="images/pic15.jpg"/> 
-          <img class="slide" src="images/pic16.jpg"/> 
-          <img class="slide" src="images/pic17.jpg"/> 
-          <img class="slide" src="images/pic18.jpg"/> 
-          <img class="slide" src="images/pic19.jpg"/> 
-          <img class="slide" src="images/pic20.jpg"/> 
-          <img class="slide" src="images/pic21.jpg"/> 
-          <img class="slide" src="images/pic22.jpg"/> 
-        <div class="fader_controls">
-          <div class="page prev" data-target="prev">&lsaquo;</div>
-          <!-- ascci code for left arrow -->
-          <div class="page next" data-target="next">&rsaquo;</div>
-          <ul class="pager_list">
-          </ul>
-          <!-- to generate a list with according with the number of images -->
+
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Photography</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Portraits</a></li>
+                    <li><a href="#">More to come...</a></li>
+                    <li><a href="#">More to come...</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">More to come...</a></li>
+                    <li><a href="#">More to come...</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-  </div>
-      <footer>
-        <p class="galleryFoot">Web Design - Copyright ©2013 Francisco Ron</p>
-      </footer> 
-      
-       <!-- jquery -->
-      <script src="js/jquery-1.10.2.min.js"></script>
-      <script src="js/slideShow.js"></script>
-           
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators carouselDots">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item  active itemPic">
+          <div class="container">
+            <div class="carousel-caption img-gallery"> 
+               <img src="images/pic1.jpg" class="img-responsive" alt="Responsive image"/>
+            </div>
+          </div>
+        </div>
+        <div class="item itemPic">
+          <div class="container">
+            <div class="carousel-caption img-gallery">  
+             <img src="images/pic2.png" class="img-responsive" alt="Responsive image"/>
+            </div>
+          </div>
+        </div>   
+        <div class="item itemPic">
+          <div class="container">
+            <div class="carousel-caption img-gallery">    
+               <img src="images/pic3.png" class="img-responsive" alt="Responsive image"/>
+             </div>    
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control leftArrow" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control rightArrow" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+</div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
   </body>
 </html>
- 
